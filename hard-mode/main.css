@@ -1,0 +1,36 @@
+.calculator {
+  width: 300px;
+  height: 400px;
+  /*border: solid black 1px;*/
+  vertical-align: top;
+  margin: 0 auto;
+}
+.calc-buttons {
+  width:70px;
+  height:70px;
+  float: left;
+  background: rgb(101 ,179 ,87);
+  border: solid 2px rgb(131 ,193 ,120 );
+  text-align: center;
+  font-size: 48px;
+  color: white;
+  line-height: 75px;
+}
+.display {
+  width:218px;
+  height:70px;
+  float: left;
+  background: rgb(101 ,179 ,87);
+  border: solid 2px rgb(131 ,193 ,120 );
+}
+.operator {
+  width:70px;
+  height:70px;
+  float: left;
+  background: rgb(131 ,193 ,120 );
+  border: solid 2px rgb(101 ,179 ,87);
+  text-align: center;
+  font-size: 48px;
+  color: white;
+  line-height: 70px;
+}
