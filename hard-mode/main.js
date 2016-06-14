@@ -1,9 +1,3 @@
-// var calc = document.querySelector(".calc-buttons");
-// calc.addEventListener('click', function (event) {
-//   console.log(event)
-// })
-
-
 var one= document.querySelector(".one");
 var two= document.querySelector(".two");
 var three= document.querySelector(".three");
@@ -20,3 +14,11 @@ var divide= document.querySelector(".divide");
 var equal= document.querySelector(".equal");
 var period= document.querySelector(".period");
 var clear= document.querySelector(".clear");
+var zero= document.querySelector(".zero");
+
+var calculator = document.querySelector(".calculator");
+calculator.addEventListener('click', function (e) {
+  console.log(e.target.textContent);
+  var display = document.querySelector("#display")
+  display.innerHTML = e.target.textContent
+});

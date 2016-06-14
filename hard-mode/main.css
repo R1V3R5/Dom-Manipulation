@@ -10,27 +10,32 @@
   height:70px;
   float: left;
   background: rgb(101 ,179 ,87);
-  border: solid 2px rgb(131 ,193 ,120 );
+  border: solid 1px rgb(160, 209, 150);
   text-align: center;
-  font-size: 48px;
+  font-size: 28px;
   color: white;
   line-height: 75px;
 }
 .display {
-  width:218px;
+  width:214px;
   height:70px;
   float: left;
   background: rgb(101 ,179 ,87);
-  border: solid 2px rgb(131 ,193 ,120 );
+  border: solid 1px rgb(160, 209, 150);
+  text-align: right;
+  font-size: 28px;
+  line-height: 70px;
 }
 .operator {
   width:70px;
   height:70px;
   float: left;
   background: rgb(131 ,193 ,120 );
-  border: solid 2px rgb(101 ,179 ,87);
+  border: solid 1px rgb(160, 209, 150);
   text-align: center;
-  font-size: 48px;
+  font-size: 28px;
   color: white;
   line-height: 70px;
 }
+
+rgb(160, 209, 150)
